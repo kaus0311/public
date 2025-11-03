@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="https://your-github-pages-url/Hotels.xsd">
+        xsi:noNamespaceSchemaLocation="https://kaus0311.github.io/public/Hotels.xsd">
   
   <Hotel Rating="4.2">
     <Name>Westin</Name>
@@ -26,5 +26,114 @@
     </Address>
     <Phone>480-894-1400</Phone>
   </Hotel>
+
+  <Hotel Rating="4.5">
+    <Name>The Park Navi Mumbai</Name>
+    <Address NearestAirport="BOM">
+      <Number>1</Number>
+      <Street>Sector 10, CBD Belapur</Street>
+      <City>Navi Mumbai</City>
+      <State>Maharashtra</State>
+      <Zip>400614</Zip>
+    </Address>
+    <Phone>+91 22 6758 9000</Phone>
+  </Hotel>
+
+  <Hotel Rating="4.8">
+    <Name>Vivanta Navi Mumbai</Name>
+    <Address NearestAirport="BOM">
+      <Number>123</Number>
+      <Street>Service Rd, Sector 2, Turbhe</Street>
+      <City>Navi Mumbai</City>
+      <State>Maharashtra</State>
+      <Zip>400705</Zip>
+    </Address>
+    <Phone>+91 22 6902 1234</Phone>
+  </Hotel>
   
-  </Hotels>
+  <Hotel>
+    <Name>Courtyard by Marriott Navi Mumbai</Name>
+    <Address NearestAirport="BOM">
+      <Number>456</Number>
+      <Street>Sector 7, Nerul</Street>
+      <City>Navi Mumbai</City>
+      <State>Maharashtra</State>
+      <Zip>400706</Zip>
+    </Address>
+    <Phone>+91 22 6928 8888</Phone>
+  </Hotel>
+
+  <Hotel Rating="4.4">
+    <Name>Hyatt Regency Phoenix</Name>
+    <Address NearestAirport="Sky Harbor">
+      <Number>122</Number>
+      <Street>N 2nd St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+    <Phone>(602) 252-1234</Phone>
+  </Hotel>
+
+  <Hotel Rating="4.6">
+    <Name>Arizona Biltmore, A Waldorf Astoria Resort</Name>
+    <Address NearestAirport="Sky Harbor">
+      <Number>2400</Number>
+      <Street>E Missouri Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85016</Zip>
+    </Address>
+    <Phone>(602) 955-6600</Phone>
+    <Phone>(800) 950-0086</Phone>
+  </Hotel>
+
+  <Hotel>
+    <Name>The Phoenician, a Luxury Collection Resort</Name>
+    <Address NearestAirport="Sky Harbor">
+      <Number>6000</Number>
+      <Street>E Camelback Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+    <Phone>(480) 941-8200</Phone>
+  </Hotel>
+
+  <Hotel Rating="4.5">
+    <Name>Canopy by Hilton Tempe Downtown</Name>
+    <Address NearestAirport="Sky Harbor">
+      <Number>108</Number>
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Phone>(602) 612-7872</Phone>
+  </Hotel>
+
+  <Hotel>
+    <Name>Omni Tempe Hotel at ASU</Name>
+    <Address NearestAirport="Sky Harbor">
+      <Number>7</Number>
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Phone>(602) 794-8600</Phone>
+  </Hotel>
+
+  <Hotel Rating="4.1">
+    <Name>Aloft Tempe</Name>
+    <Address NearestAirport="Sky Harbor">
+      <Number>951</Number>
+      <Street>E Playa Del Norte Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Phone>(480) 621-3300</Phone>
+  </Hotel>
+
+</Hotels>
