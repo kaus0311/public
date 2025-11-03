@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  ERROR 1: The root element name is 'Hotel' instead of 'Hotels'
+-->
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="https://your-github-pages-url/Hotels.xsd">
+        xsi:noNamespaceSchemaLocation="https://kaus0311.github.io/public/Hotels.xsd">
   
   <Hotel Rating="4.2">
     <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <!-- ERROR 2: Required 'NearestAirport' attribute is missing -->
     <Address>
       <Number>11</Number>
       <Street>E 7th St</Street>
@@ -11,12 +17,11 @@
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <Phone>480-968-8885</Phone>
-    <Phone>800-937-8461</Phone>
   </Hotel>
   
   <Hotel>
     <Name>Tempe Mission Palms</Name>
+    <!-- ERROR 3: A 'Phone' element is missing (schema requires at least one) -->
     <Address NearestAirport="Sky Harbor">
       <Number>60</Number>
       <Street>E 5th St</Street>
@@ -24,22 +29,25 @@
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    </Hotel>
+  </Hotel>
 
   <Hotel Rating="3.5">
     <Name>Aloft Tempe</Name>
+    <!-- ERROR 4: 'Address' element has no closing tag -->
+    <Phone>(480) 621-3300</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>951</Number>
       <Street>E Playa Del Norte Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-    <Phone>480-968-1234</Phone>
   </Hotel>
 
   <Hotel Rating="4.5">
+    <!-- ERROR 5: Two 'Name' elements are provided (schema allows only one) -->
     <Name>Canopy by Hilton</Name>
     <Name>Extra Name</Name>
+    <Phone>(602) 612-7872</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>108</Number>
       <Street>E University Dr</Street>
@@ -47,7 +55,7 @@
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <Phone>602-612-7872</Phone>
   </Hotel>
   
+<!-- ERROR 1 (cont.): Closing tag for incorrect root element -->
 </Hotel>
